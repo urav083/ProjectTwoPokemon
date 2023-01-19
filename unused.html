@@ -1,0 +1,50 @@
+<div class="indexBattleScreen">
+    <div class="wrap">
+        <div class="opponent">
+            <div class="healthBarOpponent">
+                <h2 class="GaryName">Gary</h2>
+                <div class="green"></div>
+            </div>
+            <!--end of health bar opponent-->
+
+            <div class="button">
+                <input type="image" src="./assets/fight.png" alt="Fight Button" height="150" width="250" id="fightButton">
+            </div>
+            <!--end of button-->
+
+            <div class="gary">
+                <img class="garyImg" src="./assets/gary.png" alt="Opponent Sprite, named Gary">
+                <img src="./assets/garybattle.png" alt="image of battle grass where pokemon sprites go on top of" class="grassField1">
+            </div>
+            <!--end of gary img-->
+        </div>
+        <!--end of opponent-->
+
+        <div class="player">
+            <div class="ash">
+                <img class="ashImg" src="./assets/ash.png" alt="Player Sprite, named Ash">
+                <span class="playerType"></span>
+                <img src="./assets/ashbattle.png" alt="image of battle grass where pokemon sprites go on top of" class="grassField2">
+            </div>
+            <!--end of ash image-->
+
+            <div class="healthBarPlayer">
+                <h2 class="ashName">Ash</h2>
+
+                <div class="green"></div>
+
+                <button class="menuButton" onclick="pokemon.hideFunction()">Choose Your Pokemon</button>
+
+                <div id="menu">
+
+                    <div class="fire"></div>
+                    <div class="water"></div>
+                    <div class="grass"></div>
+
+                </div>
+                <!--end of menu-->
+            </div>
+            <!--end of player health bar-->
+        </div>
+        <!--end of player-->
+    </div>end of div wrap
